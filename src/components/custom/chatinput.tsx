@@ -31,7 +31,7 @@ export const ChatInput = ({ question, setQuestion, onSubmit, isLoading }: ChatIn
 
     return(
     <div className="relative w-full flex flex-col gap-4">
-        {showSuggestions && (
+        {/* {showSuggestions && (
             <div className="hidden md:grid sm:grid-cols-2 gap-2 w-full">
                 {suggestedActions.map((suggestedAction, index) => (
                     <motion.div
@@ -59,7 +59,7 @@ export const ChatInput = ({ question, setQuestion, onSubmit, isLoading }: ChatIn
                     </motion.div>
                 ))}
             </div>
-        )}
+        )} */}
         <input
         type="file"
         className="fixed -top-4 -left-4 size-0.5 opacity-0 pointer-events-none"

@@ -5,7 +5,7 @@ from ollama import Client
 app = Flask(__name__)
 
 # Allow CORS from localhost:8502
-CORS(app, resources={r"/*": {"origins": "http://localhost:8502"}})
+CORS(app, resources={r"/*": {"origins": "http://localhost:8501"}})
 
 # Create Ollama client
 ollama = Client(host="localhost:11434")

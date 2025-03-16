@@ -14,14 +14,15 @@ export const Overview = () => {
     >
       <div className="rounded-xl p-6 flex flex-col gap-8 leading-relaxed text-center max-w-xl">
         <p className="flex flex-row justify-center gap-4 items-center">
-          <BotIcon size={44}/>
+          {/* <BotIcon size={44}/>
           <span>+</span>
-          <MessageCircle size={44}/>
+          <MessageCircle size={44}/> */}
         </p>
         <p>
-          Welcome to <strong>chatbot-ui</strong><br />
+          {/* Welcome to <strong>chatbot-ui</strong><br />
           a open source template made by<br />
-          <strong>Leon Binder</strong> and <strong>Christoph Handschuh</strong>.
+          <strong>Leon Binder</strong> and <strong>Christoph Handschuh</strong>. */}
+          Welcome to <strong>TODO - determine name</strong>
         </p>
       </div>
     </motion.div>

@@ -73,7 +73,7 @@ async function queryOllama(message: string) {
   let answer;
   console.log("Querying Ollama with:", message);
 
-  await fetch("http://192.168.0.249:5500/query", {
+  await fetch("http://localhost:5000/ollama", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message }),
