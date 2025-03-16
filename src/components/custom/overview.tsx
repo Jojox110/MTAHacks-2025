@@ -18,11 +18,13 @@ export const Overview = () => {
           <span>+</span>
           <MessageCircle size={44}/> */}
         </p>
-        <p>
+        <p className="text-xl">
           {/* Welcome to <strong>chatbot-ui</strong><br />
           a open source template made by<br />
           <strong>Leon Binder</strong> and <strong>Christoph Handschuh</strong>. */}
-          Welcome to <strong>TODO - determine name</strong>
+          Hello! I'm FilmBuddy, your friendly movie expert!
+          <br></br>
+          What do you want to watch today?
         </p>
       </div>
     </motion.div>
