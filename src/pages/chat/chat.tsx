@@ -30,7 +30,7 @@ export function Chat() {
     try {
       const response = await queryOllama(messageText);
       // Extract the reply from the response.
-      const reply = response.question || response.reply || response;
+      const reply = response.answer || response.reply || response;
       
       // Generate a separate ID for the assistant's reply.
       const assistantId = uuidv4();
