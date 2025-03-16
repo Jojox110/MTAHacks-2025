@@ -48,7 +48,7 @@ export function Chat() {
 
   return (
     <div className="flex flex-col min-w-0 h-dvh bg-[url('src/assets/imgs/background_dimmed_dimmed.jpg')]">
-      <Header />
+      {/* <Header /> */}
       <div className="flex flex-col min-w-0 gap-6 flex-1 overflow-y-scroll pt-4" ref={messagesContainerRef}>
         {messages.length === 0 && <Overview />}
         {messages.map((msg) => (

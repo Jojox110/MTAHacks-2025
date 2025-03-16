@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext'
 
 function App() {
+  localStorage.setItem('theme', 'dark')
   return (
     <ThemeProvider>
       <Router>
