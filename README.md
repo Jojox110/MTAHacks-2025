@@ -13,7 +13,7 @@ A friendly chat-bot that will recommnend you the perfect movie to watch on your 
 - Install npm dependencies <br>
 `npm i`
 - Run the project <br>
-`npm run dev -> frontend`  
+`npm run dev`  
 
 ## License
 
