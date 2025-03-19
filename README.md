@@ -27,7 +27,7 @@ A friendly chat-bot that will recommnend you the perfect movie to watch on your 
 
 ## Architecture
 
-![Flowchart](./floawchart.png)
+![Flowchart](./floawchart.png) <br>
 The UI is a modified fork from [this project](https://github.com/ChristophHandschuh/chatbot-ui) using React for front end and Flask for back end. <br>
 Llama-3.1-8b is ran using Ollama and LangChain, preforming rag on a modified verson of [this dataset.](https://github.com/metarank/msrd) <br>
 
