@@ -7,9 +7,13 @@ A friendly chat-bot that will recommnend you the perfect movie to watch on your 
 ## QuickStart
 
 - Create a virtual enviornment using conda with python 3.10 <br>
-`conda create -n <name> python=3.10` 
+`conda create -n <name> python=3.10` <br>
+`conda activate <name>`
 - Install python dependencies <br>
 `pip install -r requirements.txt`
+- Install some requirements using conda <br>
+`conda install -c conda-forge libgcc-ng` <br>
+`conda install -c pytorch nvidia faiss-gpu=1.10.0`
 - Install npm dependencies <br>
 `npm i`
 - Run the project <br>
