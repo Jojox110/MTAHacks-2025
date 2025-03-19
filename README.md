@@ -5,7 +5,7 @@
 A friendly chat-bot that will recommnend you the perfect movie to watch on your day off! This project was bulit in 6 hours for the MTAHacks2025 hackathon.
 
 ## QuickStart
-*requires CUDA 12*
+*Requires CUDA 12*
 - Create a virtual enviornment using conda with python 3.10 <br>
 `conda create -n <name> python=3.10` <br>
 `conda activate <name>`
